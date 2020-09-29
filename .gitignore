@@ -1,0 +1,14 @@
+*.doc
+*.docx
+*.zip
+**/Cache/*
+backup.tgz
+backup/
+*/example.com/Public/*
+*/example.com/Runtime/*
+
+.DS_Store
+
+#*/manage.mfcommon.com
+# 先不上传第三个系统
+CMS/*/

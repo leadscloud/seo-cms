@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1024px){
+/* 通用头部和底部 */
+#bnav p,.content,#nav,#header{ width:94%; margin:20px auto;}
+
+/* menu开始 */
+#menu{ width:100%; height:50px; background:#2d3e50;}
+#nav{ margin:0px auto; height:50px;}
+#nav .nav_menu-item { line-height:50px;}
+#nav .nav_menu-item ul{ top:50px;  }
+#nav .nav_menu-item ul li{  width:100%;}
+#nav .nav_menu-item ul li a{  padding:5px 0px 5px 4%; line-height:25px;width:96%;}
+
+/*index*/
+.content{ margin:50px auto;}
+.content .list-solution2 li,.content .solution-list li,.content .project-list li,.content .news-events li,.content .list-link li,.content .list-product li,.content .list-project li,.content .list-solution li{height:auto;}
+.content .list-solution li img{ width:100%; height:auto;}
+.content .list-solution li p{ overflow:hidden;}
+.content .list-solution li p a{ color:#fff; font-size:18px;}
+.content .list-solution2 li p a:hover,.content .list-solution li p a:hover{ color:#000; }
+
+.content .list-solution2 li,.content .productlist-top ul li,.content .list-product li,.content .list-project li{ width:24.25%;  height:auto; }
+.content .list-project li img,.content .list-product li img{ width:100%;}
+.content .list-solution2 li img{width:100%;height:auto;}
+/*index end*/
+
+/* 内页 */
+#bnav p{ line-height:40px; margin:0 auto; text-align:right;}
+
+/* products-content */
+.products-menu ul{ width:94%; margin:0 auto; }
+}
+@media screen and (max-width:768px){
+/* 通用头部和底部 */
+#header .logo{ width:227px; height:64px;}
+#header .logo img{ width:94%;}
+#header .header-email,#header .header-top{ display:none; }
+
+/*menu*/
+#header .navlist{ display:block; height:40px; width:120px; line-height:40px; border-radius:5px; top:-2px; text-align:center; font-size:16px; font-weight:700; color:#fff; background:#0094da;position: relative; margin-top:10px;}
+#header .navlist ul{ margin-top:1px; left:-30px; top:40px;position: absolute; z-index:1;}
+#header .navlist ul li{background:#0094da;border-bottom:1px solid #fff; line-height:40px;text-align:center; font-size:14px; font-weight:700; color:#fff; width:150px;}
+#header .navlist ul li a{ color:#fff;}
+#header .navlist ul li a:hover{ color:#000;}
+#header .header-c{ margin-top:15px; width:100%; font-size:18px;}
+#menu{ display:none;}
+/*menu end*/
+
+/*index*/
+.content{ margin:30px auto;}
+.content p{ line-height:24px;}
+.content .title{ font-size:18px; padding-bottom:10px;}
+.content .column-about{ width:100%; padding-right:0px; padding-bottom:20px;}
+.content .column-about p{ margin-top:5px;}
+.content .column-news{ width:100%; height:auto;}
+.content .column-news ul li{ line-height:20px; padding-bottom:5px; border-bottom:1px dotted #d9d9d9;margin-bottom:5px;}
+
+.content .list-solution li p a{ color:#fff; font-size:16px;}
+.content .list-project li img{ width:100%; margin-bottom:5px;}
+.content .list-project li p{ line-height:24px;}
+
+/*首页产品中心图片特效*/
+.content .list-product li .info .info__content-wrap .info__content{ margin-top:20px; padding:0 5px;}
+.content .list-product li .info .info__content-wrap h3{font-size:16px;}
+.content .list-product li .info .info__content-wrap .info__content .read-more{ font-size:14px;}
+/*首页产品中心图片特效 结束*/
+
+.content .i_form textarea{ height:60px; font-size:14px;}
+
+/* 内页 */
+#bnav p{ line-height:40px; margin:0 auto; text-align:left;}
+
+/* contact SANME */
+.content .contact-botton a{ margin-right:10px; width:210px;}
+.content .contact-botton a.online_c,.content .contact-botton a.email_c,.content .contact-botton a.tel_c{width:170px; background:#0094da url(../images/tel_c.jpg) no-repeat 10px center; padding-left:40px; }
+.content .contact-botton a.email_c{background:#0094da url(../images/email_c.jpg) no-repeat 25px center;width:135px; padding-left:75px; }
+.content .contact-botton a.online_c{background:#0094da url(../images/online_c.jpg) no-repeat 10px center; width:150px; padding-left:60px; }
+
+/* News & Events */
+.content .newsmemos .news-d{ display:none;}
+.content .solution-left{ width:100%; padding-right:0%;}
+.content .solution-right{ width:100%; margin-top:30px;}
+
+/* Product-list */
+.content .productlist-top ul li.hover h1,.content .productlist-top ul li{  font-size:15px}
+.content .p-application,.content .p-materials{ display:none;}
+.content .prouctslist .productmemos p{ line-height:24px;}
+
+/* Solutions-list */
+.content .solution-left{ width:100%; padding-right:0px; max-width:100%;}
+.content .solution-right{ display:none;}
+
+
+/* products-content */
+.content .content-memos{ width:100%; margin-right:0%;}
+.content .content-piclist{ width:100%; float:left; padding-bottom:20px;}
+.content .content-piclist img{ width:100%;}
+.products-menu{ padding:20px 0; width:100%; z-index:1; background:url(../images/bg.jpg) repeat;}
+
+.products-menu ul{ width:94%; margin:0 auto;}
+.products-menu ul li{padding-right:30px;}
+.products-menu ul li span{ display:none;}
+
+#Knowledges ul li{ height:30px; width:98%; float:left; background:url(../images/nav.jpg) no-repeat left center;line-height:30px; padding-left:2%;}
+
+/* Solutions & Projects */
+.content .solution-list li p{ font-size:12px; line-height:18px; height:72px; overflow:hidden;}
+}
+
+@media screen and (max-width: 480px) {
+/* 通用头部和底部 */
+#header .logo{ width:50%; height:40px;}
+#header .logo img{ width:100%;}
+#header .navlist{ margin-top:5px;}
+
+#footer .content span{ display:none;}
+/*index*/
+/* index banner开始 */
+#banner{ background:#dcdcdc; height:5px; }
+.slides { display:none; }
+/* index banner结束 */
+
+.content .column-news{ display:none;}
+.content p.spa{ display:none;}
+
+.content .hide-more{ display:block; font-size:16px; padding:20px 0;}
+.content .hide-more .more{ font-size:16px; color:#0094da;} 
+.content .hide-more a{ margin-right:10px; color:#0094da;}
+
+.content .hide-more ul{ display:none;}
+
+.content .title{ text-align:center;}
+.content .title span{ text-align:left;}
+
+.content .news-events,.content .list-solution2,.content .list-product,.content .list-project,.content .list-solution{ width:83%; margin:0 auto;}
+.content .news-events li,.content .list-solution2 li,.content .list-product li,.content .list-project li,.content .list-solution li{ width:100%; max-width:100%; height:auto; margin-right:0;}
+.content .list-solution2 li p{top:-35px; height:30px; line-height:30px;}
+/*首页产品中心图片特效*/
+.content .list-product li .info .info__content-wrap .info__content{ margin-top:80px; padding:0 5px;}
+.content .list-product li .info .info__content-wrap h3{font-size:16px;}
+.content .list-product li .info .info__content-wrap .info__content .read-more{ font-size:14px;}
+/*首页产品中心图片特效 结束*/
+
+#link .content{ padding:50px 0; margin:0px auto;}
+
+.follow{ display:none;}
+.content .list-link li{ display:none;}
+#link .content .link-contact{ width:100%; display:block;max-width:100%; }
+.content .i_form textarea{ height:100px; font-size:14px;}
+
+/*about SANME*/
+#events,#service-botton,#Culture{ display:none;}
+.content .about-pic{ margin-top:20px;}
+.content .about-pic img{ width:100%;}
+.content .about-pic .pic1{ width:100%; padding-right:0%;}
+.content .about-pic .pic2{ width:100%;  padding:10px 0;}
+.content .about-pic .pic3{ width:48%; padding-right:4%;}
+.content .about-pic .pic4{ width:48%;}
+
+/* contact SANME */
+.content .contact-botton { width:100%; margin:0 auto;}
+.content .contact-botton a{ margin-right:10px; margin-bottom:20px; font-size:16px; height:40px; line-height:40px;}
+.content .contact-botton a.online_c,.content .contact-botton a.email_c,.content .contact-botton a.tel_c{width:70%; background:#0094da none; padding-left:0px; text-align:center; display:block; margin-left:15%; }
+.content .contact-botton a.email_c{background:#0094da none; }
+.content .contact-botton a.online_c{background:#0094da none;}
+
+.content .contact-form{ padding-top:20px; width:100%;}
+.content .contact-form input.botton1,.content .contact-form input.botton{ border:0; width:120px; height:40px; line-height:40px;}
+.content .contact-form input.botton1{box-shadow:0px 5px 0px #6d6d6d; background:#9f9f9f; margin-left:20px;}
+.content .contact-form ul li{ width:100%; float:left; padding-right:0%;}
+.content .contact-form ul li.spa{ width:100%; padding-right:0%;}
+.content .contact-form textarea{ height:80px;}
+.content .contact-list{ padding-top:25px;}
+.content .contact-list ul li{ width:100%; padding-right:0%; line-height:30px; float:left; padding-bottom:20px;}
+.content .contact-list ul li span{ font-weight:700;}
+
+
+
+/*News*/
+
+.content .news-events li .info .info__content-wrap .info__content{filter:alpha(opacity=0);margin-top:50px;color:#FFF; padding:0 5px;}
+.content .news-events li .info .info__content-wrap h3{color:#fff; font-size:16px;}
+
+/*News图片特效 结束*/
+
+.content .solution-left{ width:100%; padding-right:0%;}
+.content .solution-right{ width:100%; margin-top:30px;}
+
+/* Product-list */
+.content .productlist-top{ margin-bottom:10px;}
+.content .productlist-top ul li{ display:none;}
+.content .productlist-top ul li.hover{ display:block; width:100%; max-width:100%; background:none; border-bottom:1px solid #dcdcdc; color:#2e2e2e;}
+.content .productlist-top ul li.hover h1{ font-size:18px;}
+.content .prouctslist{ border-bottom:1px dotted #d9d9d9; padding-bottom:20px; margin-bottom:20px;}
+.content .prouctslist .productpic{ width:100%; margin-right:0%; margin-bottom:20px; text-align:center;}
+.content .prouctslist .productpic img{ width:95%;}
+.content .prouctslist .productmemos{ width:95%; padding:0 2.5%;}
+
+
+/* products-content */
+.content .title span{ width:100%; display:block; margin-bottom:20px;}
+.content .title h1{ display:block; text-align:center; height:auto; line-height:35px; font-size:16px;}
+.content .product_pic{ display:block; width:100%; float:left;}
+.content .content-top{ }
+.content .content-memos ul li{ float:left; width:100%; height:auto; line-height:30px; font-weight:600; }
+.content .content-memos ul li.spa{ width:100%; font-weight:normal; border-bottom:1px dotted #dcdcdc; margin-bottom:5px; padding-bottom:5px;}
+.content .content-memos .contact-botton a{ margin-right:3%; float:left; width:30%; height:40px; line-height:40px;}
+.content .content-memos .contact-botton a.online_c{ background:#0094da none; padding-left:0px;  }
+.content .content-memos .contact-botton a.inquiry_c{ padding-left:0px; background:#0094da  none; text-align:center; }
+.content .content-memos .contact-botton a.pdf_c{padding-left:0px; text-align:center; background:#0094da  none; }
+
+#Knowledges h2,#Solutions h2,#Project h2,#Details h2,#Date h2{ padding-bottom:0px; text-align:center;}
+#Date .product-date{ display:none;}
+#Date table{ display:none;}
+.products-menu ul li{padding-right:8px;}
+.products-menu ul li.spa{ display:none;}
+.products-menu ul li.livechat{ background:none; text-indent:0px; display:none;}
+
+.content .details li img{ display:none;}
+.content .video{ display:none;}
+
+/* Solutions & Projects */
+.content .solution-list{ width:90%; margin:30px auto 0 auto;}
+.content .solution-list li{ width:100%; padding-right:0%; float:left; padding-bottom:20px; max-width:100%;}
+.content .solution-list li img{ width:87px; height:73px; float:left; clear:left; margin-right:20px;}
+
+/* Solutions-list */
+.content .solution-left{ width:100%; padding-right:0px; max-width:100%;}
+.content .solution-right{ display:none;}
+
+/* project-list */
+.content .project-list{ margin-top:20px;}
+.content .project-list li{ height:auto; padding-bottom:10px; width:100%; max-width:100%; text-align:center;}
+.content .project-list li img{ width:95%;}
+.content .project-list li p{ line-height:20px; text-align:left; padding:5px 2.5% 0 2.5%; width:95%;}
+
+}
+@media screen and (max-width: 450px) {
+.content .news-events,.content .list-solution2,.content .list-product,.content .list-project,.content .list-solution{ width:94%; margin:0 auto;}	
+}
+

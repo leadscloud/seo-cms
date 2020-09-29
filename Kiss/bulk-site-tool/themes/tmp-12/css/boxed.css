@@ -1,0 +1,123 @@
+/* ----------------------------------------------------------------------------- */
+/*  Boxed Layout
+/* ----------------------------------------------------------------------------- */
+
+
+    .bg-cover {
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    body {
+        background: url(../images/backgrounds/bg_img01.jpg);
+    }
+    #body-wrapper {
+        left: 50%;
+        margin-left: -560px;
+        padding: 0 70px;
+        width: 980px;
+        -webkit-box-shadow: 0 0 4px rgba(0,0,0,.3);
+                box-shadow: 0 0 4px rgba(0,0,0,.3);
+    }
+
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+/*  Media Queries
+/* ------------------------------------------------------------------------------- */
+
+
+/* Standard 960 or larger (browsers) */
+@media only screen and (min-width: 960px) {
+
+}
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 979px) {
+
+    #body-wrapper {
+        margin-left: -404px;
+        width: 708px;
+        padding: 0 50px;
+    }
+    .fullwidth {
+        margin-right: -50px !important;
+        margin-left: -50px !important;
+    }
+    .fullwidth-padding {
+        margin-right: -50px !important;
+        margin-left: -50px !important;
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+
+}
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) { 
+
+    #body-wrapper {
+        margin-left: -250px;
+        width: 440px;
+        padding: 0 30px;
+    }
+    .fullwidth {
+        margin-right: -30px !important;
+        margin-left: -30px !important;
+    }
+    .fullwidth-padding {
+        margin-right: -30px !important;
+        margin-left: -30px !important;
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+
+}
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    #body-wrapper {
+        margin-left: -165px;
+        width: 280px;
+        padding: 0 25px;
+    }
+    .fullwidth {
+        margin-right: -25px !important;
+        margin-left: -25px !important;
+    }
+    .fullwidth-padding {
+        margin-right: -25px !important;
+        margin-left: -25px !important;
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+
+}
+
+
+
+

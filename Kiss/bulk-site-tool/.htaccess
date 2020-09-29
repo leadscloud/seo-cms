@@ -1,0 +1,6 @@
+#Kiss for apache兼容用。无需任何修改。
+RewriteEngine On
+RewriteRule ^includes/$ / [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /includes/list.php [L]

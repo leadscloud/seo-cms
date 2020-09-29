@@ -1,0 +1,31 @@
+.sp-1{ font-size:40px !important; word-break:break-all !important; width:50% !important;}
+.sp-1 p{ width:200px !important; float:left;}
+.sp-3{ font-size:30px !important; word-break:break-all !important; width:50% !important;}
+.sp-3 p{ width:200px !important; float:left;}
+.sp-6{ width:1000px; font-size:36px !important; white-space:normal !important}
+.sp-2{ width:400px; white-space:normal !important}
+.sp-5{ width:400px; white-space:normal !important}
+.PPP img{ width:24%; float:left; margin-right:1%; margin-top:5px}
+
+.page-1 a{ font-size:18px; float:left; width:40px; text-align:right}
+.prea{ width:90px !important}
+.post-entry img{ float:left; margin-bottom:10px; width:50%}
+.clear{ clear:both}
+
+.span-3{ width:30% !important; margin-right:1% !important; margin-left:0 !important; float:left !important; }
+.revslider-wrapper{ background-color:#EAEA00}
+.page-title{ background-color:#EAEA00}
+.post-entry H2{ color:#FFF}
+h1{ font-size:24px !important}
+
+100% 宽度
+b{ font-size:16px; color:#F00}
+.para_table tbody tr td p{ font-size:12px !important;}
+#parameter{ overflow:auto}
+
+.form-horizontal td{border:#000 solid 1px !important;}
+
+ .t4{width:80%;margin: 0 auto;}
+    /*瀑布流层*/
+B{ color:#F00; font-size:18px}
+a:hover{ cursor:pointer !important}
